@@ -79,3 +79,14 @@ App::down(function()
 */
 
 require app_path().'/filters.php';
+
+/*
+|--------------------------------------------------------------------------
+| Require Modules
+|--------------------------------------------------------------------------
+|
+| Register modules to orchestra/extension.
+|
+*/
+
+App::make('orchestra.extension.finder')->addPath(base_path().'/modules/*/*/');
