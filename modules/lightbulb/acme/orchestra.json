@@ -1,0 +1,8 @@
+{
+	"name": "acme/foobar",
+	"description": "Test ajax call on a resource route gives error",
+	"author": "crynobone",
+	"provide": [
+		"Lightbulb\\Acme\\AcmeServiceProvider"
+	]
+}

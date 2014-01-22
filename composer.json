@@ -10,6 +10,9 @@
 		"orchestra/story": "2.1.*"
 	},
 	"autoload": {
+		"psr-4": {
+			"Lightbulb\\Acme\\": "modules/lightbulb/acme"
+		},
 		"classmap": [
 			"app/commands",
 			"app/controllers",
