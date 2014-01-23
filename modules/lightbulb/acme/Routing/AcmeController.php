@@ -14,6 +14,6 @@ class AcmeController extends Controller
 
     public function postAjaxAcme()
     {
-        return Response::json(array('foo' => Input::get('foo')), 200);
+        Response::json(array('foo' => Input::get('foo')), 200);
     }
 }
